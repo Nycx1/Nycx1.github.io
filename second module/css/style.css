@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #efefef;
+    font-family: 'Karla', sans-serif;;
+}
+
+main {
+    width: 70%;
+    margin: auto;
+    padding: 50px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+    box-shadow: 0 0 50px 1px rgba(0,0,0,0.2);
+}
+
+h1:hover{
+    transform: rotate(3deg)scale(1.07);
+}
+
+.photo {
+    width: calc(50% - 40px);
+    height: calc((35vw - 40px) / 16*9);
+    margin: 20px;
+    background-color: orange;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s ease;
+}
+
+.photo:hover {
+    transform: rotate(3deg)scale(1.07);
+    box-shadow: 0 0 20px 1px rgb(0, 0, 0);
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+}
+
+.img-1{
+    background-image: url(../images/mountain.jpg);
+}
+
+.img-2{
+    background-image: url(../images/boat.jpg);
+}
+
+.img-3{
+    background-image: url(../images/tree.jpg);
+}
+
+.img-4{
+    background-image: url(../images/priroda1.jpg);
+}
+
+.img-5{
+    background-image: url(../images/priroda2.jpg);
+}
+
+.img-6{
+    background-image: url(../images/priroda3.jpg);
+}
+
+.img-7{
+    background-image: url(../images/priroda4.jpg);
+}
+
+.img-8{
+    background-image: url(../images/priroda5.jpg);
+}
+
+.img-9{
+    background-image: url(../images/priroda6.jpg);
+}
+
+.img-10{
+    background-image: url(../images/priroda7.jpg);
+}
+
+.img-11{
+    background-image: url(../images/priroda8.jpg);
+}
+
+.img-12{
+   background-image: url(../images/priroda9.jpg); 
+}
